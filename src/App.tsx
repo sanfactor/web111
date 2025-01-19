@@ -2,8 +2,8 @@ import { Input } from "@/components/ui/input"
 import { Twitter, ExternalLink } from "lucide-react"
 
 function App() {
-  const contractAddress = "0x1234567890abcdef1234567890abcdef12345678" // Example address
-  const dexscreenerUrl = "https://dexscreener.com/ethereum/" + contractAddress
+  const contractAddress = "72GuLiwv3Lbbwoxv2Jcv1sS6R5boFFRadViUVHWvpump" // Example address
+  const dexscreenerUrl = "https://dexscreener.com/solana/" + contractAddress
 
   return (
     <div className="min-h-screen bg-black text-white p-8">
@@ -44,7 +44,7 @@ function App() {
             <ExternalLink className="w-8 h-8 text-gray-300 hover:text-white" />
           </a>
           <a 
-            href="https://twitter.com/official" 
+            href="https://x.com/Trumpper_ai" 
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 hover:bg-gray-800 rounded-full transition-colors"
